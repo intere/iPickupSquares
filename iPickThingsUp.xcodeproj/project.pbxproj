@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9330738B1CFE768300DCF715 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9330738A1CFE768300DCF715 /* Player.swift */; };
+		9330738D1CFE789F00DCF715 /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9330738C1CFE789F00DCF715 /* Square.swift */; };
 		9365E9DB1C8FF54E002DD299 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9365E9DA1C8FF54E002DD299 /* AppDelegate.swift */; };
 		9365E9DD1C8FF54E002DD299 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9365E9DC1C8FF54E002DD299 /* GameScene.sks */; };
 		9365E9DF1C8FF54E002DD299 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9365E9DE1C8FF54E002DD299 /* GameScene.swift */; };
@@ -16,6 +18,7 @@
 		9365E9E91C8FF54E002DD299 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9365E9E71C8FF54E002DD299 /* LaunchScreen.storyboard */; };
 		9365E9F41C8FF54E002DD299 /* iPickThingsUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9365E9F31C8FF54E002DD299 /* iPickThingsUpTests.swift */; };
 		9365E9FF1C8FF54F002DD299 /* iPickThingsUpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9365E9FE1C8FF54F002DD299 /* iPickThingsUpUITests.swift */; };
+		9365EA161C8FF82E002DD299 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9365EA151C8FF82E002DD299 /* Globals.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,21 +39,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9330738A1CFE768300DCF715 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		9330738C1CFE789F00DCF715 /* Square.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Square.swift; sourceTree = "<group>"; };
 		9365E9D71C8FF54E002DD299 /* iPickThingsUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPickThingsUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9365E9DA1C8FF54E002DD299 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9365E9DC1C8FF54E002DD299 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		9365E9DE1C8FF54E002DD299 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		9365E9E01C8FF54E002DD299 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		9365E9DC1C8FF54E002DD299 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = GameScene.sks; path = ../../GameScene.sks; sourceTree = "<group>"; };
+		9365E9DE1C8FF54E002DD299 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GameScene.swift; path = ../../GameScene.swift; sourceTree = "<group>"; };
+		9365E9E01C8FF54E002DD299 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GameViewController.swift; path = ../GameViewController.swift; sourceTree = "<group>"; };
 		9365E9E31C8FF54E002DD299 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9365E9E51C8FF54E002DD299 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9365E9E51C8FF54E002DD299 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		9365E9E81C8FF54E002DD299 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9365E9EA1C8FF54E002DD299 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9365E9EA1C8FF54E002DD299 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		9365E9EF1C8FF54E002DD299 /* iPickThingsUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPickThingsUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9365E9F31C8FF54E002DD299 /* iPickThingsUpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPickThingsUpTests.swift; sourceTree = "<group>"; };
 		9365E9F51C8FF54E002DD299 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9365E9FA1C8FF54F002DD299 /* iPickThingsUpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPickThingsUpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9365E9FE1C8FF54F002DD299 /* iPickThingsUpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPickThingsUpUITests.swift; sourceTree = "<group>"; };
 		9365EA001C8FF54F002DD299 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9365EA151C8FF82E002DD299 /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,13 +108,13 @@
 			isa = PBXGroup;
 			children = (
 				9365E9DA1C8FF54E002DD299 /* AppDelegate.swift */,
-				9365E9DC1C8FF54E002DD299 /* GameScene.sks */,
-				9365E9DE1C8FF54E002DD299 /* GameScene.swift */,
-				9365E9E01C8FF54E002DD299 /* GameViewController.swift */,
-				9365E9E21C8FF54E002DD299 /* Main.storyboard */,
-				9365E9E51C8FF54E002DD299 /* Assets.xcassets */,
-				9365E9E71C8FF54E002DD299 /* LaunchScreen.storyboard */,
-				9365E9EA1C8FF54E002DD299 /* Info.plist */,
+				9365EA0C1C8FF58F002DD299 /* Controllers */,
+				9365EA0D1C8FF58F002DD299 /* Models */,
+				9365EA0E1C8FF58F002DD299 /* Providers */,
+				9365EA141C8FF5E1002DD299 /* Resources */,
+				9365EA0F1C8FF58F002DD299 /* SpriteKit */,
+				9365EA121C8FF58F002DD299 /* Storyboards */,
+				9365EA131C8FF58F002DD299 /* Utilities */,
 			);
 			path = iPickThingsUp;
 			sourceTree = "<group>";
@@ -129,6 +135,81 @@
 				9365EA001C8FF54F002DD299 /* Info.plist */,
 			);
 			path = iPickThingsUpUITests;
+			sourceTree = "<group>";
+		};
+		9365EA0C1C8FF58F002DD299 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9365E9E01C8FF54E002DD299 /* GameViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9365EA0D1C8FF58F002DD299 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9365EA0E1C8FF58F002DD299 /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		9365EA0F1C8FF58F002DD299 /* SpriteKit */ = {
+			isa = PBXGroup;
+			children = (
+				9365EA101C8FF58F002DD299 /* Nodes */,
+				9365EA111C8FF58F002DD299 /* Scenes */,
+			);
+			path = SpriteKit;
+			sourceTree = "<group>";
+		};
+		9365EA101C8FF58F002DD299 /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				9330738A1CFE768300DCF715 /* Player.swift */,
+				9330738C1CFE789F00DCF715 /* Square.swift */,
+			);
+			path = Nodes;
+			sourceTree = "<group>";
+		};
+		9365EA111C8FF58F002DD299 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				9365E9DC1C8FF54E002DD299 /* GameScene.sks */,
+				9365E9DE1C8FF54E002DD299 /* GameScene.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		9365EA121C8FF58F002DD299 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				9365E9E71C8FF54E002DD299 /* LaunchScreen.storyboard */,
+				9365E9E21C8FF54E002DD299 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		9365EA131C8FF58F002DD299 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				9365EA151C8FF82E002DD299 /* Globals.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		9365EA141C8FF5E1002DD299 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9365E9E51C8FF54E002DD299 /* Assets.xcassets */,
+				9365E9EA1C8FF54E002DD299 /* Info.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,8 +344,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9330738D1CFE789F00DCF715 /* Square.swift in Sources */,
+				9365EA161C8FF82E002DD299 /* Globals.swift in Sources */,
 				9365E9DF1C8FF54E002DD299 /* GameScene.swift in Sources */,
 				9365E9E11C8FF54E002DD299 /* GameViewController.swift in Sources */,
+				9330738B1CFE768300DCF715 /* Player.swift in Sources */,
 				9365E9DB1C8FF54E002DD299 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,6 +391,7 @@
 				9365E9E31C8FF54E002DD299 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		9365E9E71C8FF54E002DD299 /* LaunchScreen.storyboard */ = {
@@ -315,6 +400,7 @@
 				9365E9E81C8FF54E002DD299 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -494,6 +580,7 @@
 				9365EA051C8FF54F002DD299 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9365EA061C8FF54F002DD299 /* Build configuration list for PBXNativeTarget "iPickThingsUpTests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +589,7 @@
 				9365EA081C8FF54F002DD299 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9365EA091C8FF54F002DD299 /* Build configuration list for PBXNativeTarget "iPickThingsUpUITests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +598,7 @@
 				9365EA0B1C8FF54F002DD299 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
